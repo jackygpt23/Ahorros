@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etProducto" type="id" />
+    <item name="etPrecio" type="id" />
+    <item name="etDescuento" type="id" />
+    <item name="lvProductos" type="id" />
+    <item name="etCantidad" type="id" />
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Campo Local -->
+        <TextView
+            android:text="Local"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etLocal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:hint="Supermercado / Tienda" />
+
+        <!-- Campo Producto -->
+        <TextView
+            android:text="Producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etProducto"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:hint="Nombre del producto" />
+
+        <!-- Campo Precio -->
+        <EditText
+            android:id="@+id/etPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:hint="Precio"
+            android:inputType="numberDecimal" />
+
+        <!-- Campo Cantidad -->
+        <EditText
+            android:id="@+id/etCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:hint="Cantidad"
+            android:inputType="number" />
+
+        <!-- Campo Descuento -->
+        <EditText
+            android:id="@+id/etDescuento"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"
+            android:hint="Descuento"
+            android:inputType="numberDecimal" />
+
+        <!-- Botón Agregar -->
+        <Button
+            android:id="@+id/btnAgregarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Producto"
+            android:layout_marginTop="12dp"
+            android:paddingVertical="12dp" />
+
+        <!-- Lista -->
+        <ListView
+            android:id="@+id/lvProductos"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp" />
+
+        <!-- Botón Guardar -->
+        <Button
+            android:id="@+id/btnGuardarCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Compra"
+            android:layout_marginTop="16dp"
+            android:paddingVertical="12dp" />
+    </LinearLayout>
+</ScrollView>
+
